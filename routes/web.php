@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Conrollers\RegisterController; 
+// use App\Http\Conrollers\RegisterController; 
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post ('/register', [RegisterController::class, 'store']);
-Route::post ('/login', [loginController::class, 'check']);
+// Route::post ('/register', [RegisterController::class, 'store']);
+// Route::post ('/login', [loginController::class, 'check']);
